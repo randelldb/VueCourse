@@ -9,12 +9,12 @@ class IndexController extends Controller
 {
     public function index()
     {
-        //dd(Listing::all());
         return inertia(
             'Index/Index',
             [
                 'message' => 'Hello form Laravel'
-            ]);
+            ]
+        );
     }
     
     public function show()
