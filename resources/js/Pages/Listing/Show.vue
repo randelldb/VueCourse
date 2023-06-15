@@ -1,12 +1,12 @@
 <template>
     <span>
-      {{ listing.street }} {{ listing.street_nr }}, {{
-        listing.city }}, for ${{ listing.price }}
+      {{ listings.street }} {{ listings.street_nr }}, {{
+        listings.city }}, for ${{ listings.price }}
     </span>
   </template>
   
   <script setup>
   defineProps({
-    listing: Object,
+    listings: Object,
   })
   </script>
