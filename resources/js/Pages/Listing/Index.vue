@@ -8,7 +8,7 @@
 
 <script setup>
     import ListingAddress from '@/Components/ListingAddress.vue';
-import { Link } from '@inertiajs/vue3';
+    import { Link } from '@inertiajs/vue3';
 
     defineProps({
         listings: Array,
