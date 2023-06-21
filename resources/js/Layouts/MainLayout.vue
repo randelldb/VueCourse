@@ -17,12 +17,12 @@
 
     const page = usePage()
     const flashSuccess = computed(
-        () => page.props.value.flash.success,
+        () => page.props.flash.success,
     )
 </script>
 
 <style scoped>
-    .succsess{
+    .success{
         background-color: green;
         color:white
     }
